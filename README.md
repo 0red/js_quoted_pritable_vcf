@@ -3,7 +3,8 @@ Javascript quick quoted printable implementation (i.e. for vcf)
 
 
 ```js
-  // use wrap="=\r\n " for vcf format
+  // use wrap="=\r\n " for vcf format and Linear White SPace LWSP
+  
 function quoted_full_printable_encode(str,wrap=false,max=76) {
   // https://pl.wikipedia.org/wiki/Quoted-Printable
   // https://tools.ietf.org/html/rfc2045#section-6.7
